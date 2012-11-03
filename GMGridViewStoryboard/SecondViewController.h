@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SecondViewController.h
 //  GMGridViewStoryboard
 //
 //  Created by Marcus Kida on 03.11.12.
@@ -7,11 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <QuartzCore/QuartzCore.h>
 
-#import "GMGridView.h"
-#import "SecondViewController.h"
+@interface SecondViewController : UIViewController
 
-@interface ViewController : UIViewController
+@property (nonatomic, assign) int m_CellNumber;
 
 @end

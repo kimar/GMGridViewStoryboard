@@ -18,7 +18,27 @@
 		ED8CBED616450FD600E7E8B6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED8CBED516450FD600E7E8B6 /* Default-568h@2x.png */; };
 		ED8CBED916450FD600E7E8B6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8CBED716450FD600E7E8B6 /* MainStoryboard.storyboard */; };
 		ED8CBEDC16450FD600E7E8B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8CBEDB16450FD600E7E8B6 /* ViewController.m */; };
+		ED8CBF51164511F700E7E8B6 /* libGMGridView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8CBF4E1645105000E7E8B6 /* libGMGridView.a */; };
+		ED8CBF531645125600E7E8B6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8CBF521645125600E7E8B6 /* QuartzCore.framework */; };
+		ED8CBF56164513B500E7E8B6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8CBF55164513B500E7E8B6 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED8CBF4D1645105000E7E8B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED8CBF461645105000E7E8B6 /* GMGridView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 78509312149FAC2E000787E4;
+			remoteInfo = GMGridView;
+		};
+		ED8CBF4F164511DF00E7E8B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED8CBF461645105000E7E8B6 /* GMGridView.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 78509311149FAC2E000787E4;
+			remoteInfo = GMGridView;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		ED8CBEBB16450FD600E7E8B6 /* GMGridViewStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMGridViewStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,6 +57,10 @@
 		ED8CBED816450FD600E7E8B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		ED8CBEDA16450FD600E7E8B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		ED8CBEDB16450FD600E7E8B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED8CBF461645105000E7E8B6 /* GMGridView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GMGridView.xcodeproj; path = GMGridView/GMGridView/GMGridView.xcodeproj; sourceTree = "<group>"; };
+		ED8CBF521645125600E7E8B6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ED8CBF54164513B500E7E8B6 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		ED8CBF55164513B500E7E8B6 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED8CBF531645125600E7E8B6 /* QuartzCore.framework in Frameworks */,
+				ED8CBF51164511F700E7E8B6 /* libGMGridView.a in Frameworks */,
 				ED8CBEC016450FD600E7E8B6 /* UIKit.framework in Frameworks */,
 				ED8CBEC216450FD600E7E8B6 /* Foundation.framework in Frameworks */,
 				ED8CBEC416450FD600E7E8B6 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +82,7 @@
 		ED8CBEB016450FD600E7E8B6 = {
 			isa = PBXGroup;
 			children = (
+				ED8CBF461645105000E7E8B6 /* GMGridView.xcodeproj */,
 				ED8CBEC516450FD600E7E8B6 /* GMGridViewStoryboard */,
 				ED8CBEBE16450FD600E7E8B6 /* Frameworks */,
 				ED8CBEBC16450FD600E7E8B6 /* Products */,
@@ -73,6 +100,7 @@
 		ED8CBEBE16450FD600E7E8B6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ED8CBF521645125600E7E8B6 /* QuartzCore.framework */,
 				ED8CBEBF16450FD600E7E8B6 /* UIKit.framework */,
 				ED8CBEC116450FD600E7E8B6 /* Foundation.framework */,
 				ED8CBEC316450FD600E7E8B6 /* CoreGraphics.framework */,
@@ -88,6 +116,8 @@
 				ED8CBED716450FD600E7E8B6 /* MainStoryboard.storyboard */,
 				ED8CBEDA16450FD600E7E8B6 /* ViewController.h */,
 				ED8CBEDB16450FD600E7E8B6 /* ViewController.m */,
+				ED8CBF54164513B500E7E8B6 /* SecondViewController.h */,
+				ED8CBF55164513B500E7E8B6 /* SecondViewController.m */,
 				ED8CBEC616450FD600E7E8B6 /* Supporting Files */,
 			);
 			path = GMGridViewStoryboard;
@@ -107,6 +137,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		ED8CBF471645105000E7E8B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED8CBF4E1645105000E7E8B6 /* libGMGridView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -121,6 +159,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				ED8CBF50164511DF00E7E8B6 /* PBXTargetDependency */,
 			);
 			name = GMGridViewStoryboard;
 			productName = GMGridViewStoryboard;
@@ -146,12 +185,28 @@
 			mainGroup = ED8CBEB016450FD600E7E8B6;
 			productRefGroup = ED8CBEBC16450FD600E7E8B6 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = ED8CBF471645105000E7E8B6 /* Products */;
+					ProjectRef = ED8CBF461645105000E7E8B6 /* GMGridView.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				ED8CBEBA16450FD600E7E8B6 /* GMGridViewStoryboard */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		ED8CBF4E1645105000E7E8B6 /* libGMGridView.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGMGridView.a;
+			remoteRef = ED8CBF4D1645105000E7E8B6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		ED8CBEB916450FD600E7E8B6 /* Resources */ = {
@@ -176,10 +231,19 @@
 				ED8CBECC16450FD600E7E8B6 /* main.m in Sources */,
 				ED8CBED016450FD600E7E8B6 /* AppDelegate.m in Sources */,
 				ED8CBEDC16450FD600E7E8B6 /* ViewController.m in Sources */,
+				ED8CBF56164513B500E7E8B6 /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED8CBF50164511DF00E7E8B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GMGridView;
+			targetProxy = ED8CBF4F164511DF00E7E8B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		ED8CBEC816450FD600E7E8B6 /* InfoPlist.strings */ = {
@@ -223,7 +287,12 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "GMGridView/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -243,8 +312,13 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "GMGridView/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -256,6 +330,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GMGridViewStoryboard/GMGridViewStoryboard-Prefix.pch";
 				INFOPLIST_FILE = "GMGridViewStoryboard/GMGridViewStoryboard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -267,6 +342,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GMGridViewStoryboard/GMGridViewStoryboard-Prefix.pch";
 				INFOPLIST_FILE = "GMGridViewStoryboard/GMGridViewStoryboard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
